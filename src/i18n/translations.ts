@@ -165,7 +165,7 @@ export const translations: Record<Language, TranslationData> = {
       registerBtn: "Катталуу"
     },
     hero: {
-      tagline: "ЭЛ АРАЛЫК ИЛИМИЙ-ПРАКТИКАЛЫК КОНФЕРЕНЦИЯ",
+      tagline: "ЖОГОРКУ МЕКТЕПКЕ КАБЫЛ АЛУУДАГЫ САПАТ ЖАНА КАЛЫСТЫК МАСЕЛЕЛЕРИ БОЮНЧА ЭЛ АРАЛЫК ИЛИМИЙ-ПРАКТИКАЛЫК КОНФЕРЕНЦИЯ",
       title: "ТЕҢ МҮМКҮНЧҮЛҮК — КЕҢ КЕЛЕЧЕК",
       titleAccent: "Жалпы республикалык тестирлөөгө (ЖРТ) 25 жыл",
       dateMeta: "2026-жылдын 29-октябры | 09:00",
@@ -386,7 +386,7 @@ export const translations: Record<Language, TranslationData> = {
       registerBtn: "Регистрация"
     },
     hero: {
-      tagline: "МЕЖДУНАРОДНАЯ НАУЧНО-ПРАКТИЧЕСКАЯ КОНФЕРЕНЦИЯ",
+      tagline: "МЕЖДУНАРОДНАЯ НАУЧНО-ПРАКТИЧЕСКАЯ КОНФЕРЕНЦИЯ ПО ВОПРОСАМ КАЧЕСТВА И СПРАВЕДЛИВОСТИ ОТБОРА В ВЫСШУЮ ШКОЛУ",
       title: "РАВНЫЙ ШАНС — БОЛЬШОЕ БУДУЩЕЕ",
       titleAccent: "25 лет Общереспубликанскому тестированию (ОРТ)",
       dateMeta: "29 октября 2026 года | 09:00",
@@ -607,7 +607,7 @@ export const translations: Record<Language, TranslationData> = {
       registerBtn: "Register"
     },
     hero: {
-      tagline: "INTERNATIONAL SCIENTIFIC-PRACTICAL CONFERENCE",
+      tagline: "INTERNATIONAL SCIENTIFIC-PRACTICAL CONFERENCE ON THE QUALITY AND FAIRNESS OF SELECTION FOR HIGHER EDUCATION",
       title: "EQUAL OPPORTUNITY — GREAT FUTURE",
       titleAccent: "25 Years of the National Scholarship Testing (ORT)",
       dateMeta: "October 29, 2026 | 09:00",
