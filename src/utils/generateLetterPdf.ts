@@ -3,7 +3,7 @@ import { translations } from '../i18n/translations';
 
 /**
  * Generates official information letter adhering strictly to state standards
- * and dynamic localization (БББаОБ / ЦООМО / CEATM).
+ * and dynamic localization with pleasant imperial academic blue (#1D3557).
  */
 export function printOrDownloadOfficialLetter(language: Language) {
   const t = translations[language];
@@ -29,13 +29,13 @@ export function printOrDownloadOfficialLetter(language: Language) {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       font-size: 11pt;
       line-height: 1.45;
-      color: #151A2C;
+      color: #1D3557;
       background: #FFFFFF;
       margin: 0;
       padding: 30px 40px;
     }
     .header-bar {
-      border-bottom: 2px solid #151A2C;
+      border-bottom: 2px solid #1D3557;
       padding-bottom: 14px;
       margin-bottom: 20px;
       text-align: center;
@@ -45,6 +45,7 @@ export function printOrDownloadOfficialLetter(language: Language) {
       font-weight: 800;
       text-transform: uppercase;
       letter-spacing: 0.5px;
+      color: #1D3557;
     }
     .ministry-title {
       font-size: 9pt;
@@ -57,17 +58,18 @@ export function printOrDownloadOfficialLetter(language: Language) {
       letter-spacing: 1.5px;
       margin-top: 15px;
       text-transform: uppercase;
+      color: #1D3557;
     }
     .conf-name {
       font-size: 12.5pt;
       font-weight: 800;
-      color: #151A2C;
+      color: #1D3557;
       margin: 8px 0 4px 0;
     }
     .conf-anniv {
       font-size: 11pt;
       font-weight: 700;
-      color: #334155;
+      color: #2A4D7A;
       margin-bottom: 12px;
     }
     .meta-table {
@@ -90,6 +92,7 @@ export function printOrDownloadOfficialLetter(language: Language) {
       margin-bottom: 6px;
       border-bottom: 1px solid #E2E8F0;
       padding-bottom: 3px;
+      color: #1D3557;
     }
     p {
       margin: 6px 0;
@@ -104,7 +107,7 @@ export function printOrDownloadOfficialLetter(language: Language) {
     }
     .contacts-box {
       margin-top: 25px;
-      border-top: 2px solid #151A2C;
+      border-top: 2px solid #1D3557;
       padding-top: 12px;
       font-size: 9.5pt;
     }
@@ -117,7 +120,7 @@ export function printOrDownloadOfficialLetter(language: Language) {
     .stamp-box {
       width: 105px;
       height: 105px;
-      border: 2px solid #151A2C;
+      border: 2px solid #1D3557;
       border-radius: 50%;
       display: flex;
       flex-direction: column;
@@ -126,7 +129,7 @@ export function printOrDownloadOfficialLetter(language: Language) {
       text-align: center;
       font-size: 8pt;
       font-weight: 800;
-      color: #151A2C;
+      color: #1D3557;
       transform: rotate(-4deg);
     }
     @media print {
@@ -136,7 +139,7 @@ export function printOrDownloadOfficialLetter(language: Language) {
     .no-print-bar {
       position: sticky;
       top: 0;
-      background: #151A2C;
+      background: #1D3557;
       color: white;
       padding: 12px 20px;
       margin: -30px -40px 25px -40px;
@@ -146,7 +149,7 @@ export function printOrDownloadOfficialLetter(language: Language) {
       font-family: sans-serif;
     }
     .btn {
-      background: #334155;
+      background: #2A4D7A;
       color: white;
       border: none;
       padding: 8px 18px;
@@ -156,10 +159,10 @@ export function printOrDownloadOfficialLetter(language: Language) {
       border-radius: 2px;
     }
     .btn:hover {
-      background: #475569;
+      background: #3A6EA5;
     }
     .btn-close {
-      background: #1E293B;
+      background: #14253E;
       margin-left: 8px;
     }
   </style>
